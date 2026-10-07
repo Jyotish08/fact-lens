@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-10-04T09:34:23.173Z",
+  "pipelineVersion": "v1",
+  "split": "dev",
+  "mode": "replay",
+  "models": {
+    "fast": "gpt-5.6-luna",
+    "verifier": "gpt-5.6-luna",
+    "synthesis": "gpt-5.6-luna",
+    "embedding": "text-embedding-3-small"
+  },
+  "metrics": {
+    "total": 3,
+    "evaluated": 0,
+    "errors": 3,
+    "accuracyStrict": 0,
+    "accuracyAcceptable": 0,
+    "macroF1": 0,
+    "perClassF1": {
+      "supported": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "mostly_supported": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "mixed": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "misleading": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "contradicted": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "insufficient_evidence": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      }
+    },
+    "confusionMatrix": {
+      "supported": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      },
+      "mostly_supported": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      },
+      "mixed": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      },
+      "misleading": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      },
+      "contradicted": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      },
+      "insufficient_evidence": {
+        "supported": 0,
+        "mostly_supported": 0,
+        "mixed": 0,
+        "misleading": 0,
+        "contradicted": 0,
+        "insufficient_evidence": 0
+      }
+    },
+    "falseContradictionRate": 0,
+    "infraAsVerdictRate": 0,
+    "citationSpanValidity": 1,
+    "ece": 0,
+    "brierScore": 0,
+    "latencyMs": {
+      "p50": 2677,
+      "p90": 2719,
+      "p95": 2719,
+      "mean": 2456
+    },
+    "tokensPerClaim": {
+      "avgIn": 0,
+      "avgOut": 0,
+      "avgTotal": 0
+    },
+    "providerCallsPerClaim": {
+      "avgSearches": 0,
+      "avgScrapes": 0
+    },
+    "verificationFailureRate": 1
+  },
+  "runCount": 1
+}
